@@ -15,3 +15,12 @@ Sublist3r - Subdomain enumeration - https://github.com/aboul3la/Sublist3r
 Devploit - Information gathering - https://github.com/joker25000/Devploit
 
 
+
+
+
+
+
+
+Explo
+
+Shell reverse windows - https://github.com/Dhayalanb/windows-php-reverse-shell
