@@ -18,9 +18,19 @@ Devploit - Information gathering - https://github.com/joker25000/Devploit
 
 
 
-
-
-
 Explo
 
 Shell reverse windows - https://github.com/Dhayalanb/windows-php-reverse-shell
+
+
+
+
+Material:
+
+Pentestmonkey Cheat Sheets - http://pentestmonkey.net
+
+
+Wordlist
+
+https://github.com/fuzzdb-project/fuzzdb
+https://github.com/danielmiessler/SecLists
