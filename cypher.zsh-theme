@@ -8,7 +8,11 @@ function get_tun0_ip() {
     if ifconfig tun0 &> /dev/null; then
         echo "$(ip addr show tun0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}')"
     else
-        echo "~"
+        if ifconfig tap0 &> /dev/null; then
+            echo "$(ip addr show tap0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}')" 
+        else
+            echo "~"
+        fi
     fi
 }
 IPVPN='$(get_tun0_ip)'
